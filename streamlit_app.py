@@ -46,8 +46,8 @@ def app():
     subjective viewpoint.")
     
     st.subheader('Survey Topic')
-    st.write('We conducted a survey among CS students and ask if they agree or disagree that \
-    AI will soon make CS professionals obsolete and briefly explain their answer.  \
+    st.write('We conducted a survey among students in the university and ask if they agree or disagree on \
+    the uniform policy that was imposed by the university since the beginning..  \
     The Disagree responses are labeled 0 and the Agree are labeled as 1.')
     
     with st.echo(code_location='below'):
@@ -118,7 +118,7 @@ def app():
             train = shuffle(df)
             
             
-            st.write('There were 20 responses and we display them in the table below.')
+            st.write('There were 45 responses and we display them in the table below.')
             st.dataframe(train, use_container_width=True)
    
             st.write('Dataset shape: ')
