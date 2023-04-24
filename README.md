@@ -1,2 +1,2 @@
-# sentiment-cs
-Sentiment analysis on AI making CS obsolete
+# Sentiment Analysis
+Sentiment analysis on the implementation of Uniform policy amongst students of the University.
