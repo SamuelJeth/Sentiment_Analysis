@@ -33,7 +33,8 @@ def app():
     st.title("Sentiment Analysis on the Uniform Policy")      
     st.subheader("(c) 2023 Samuel Jeth A. Datiles BSCS-3A")
 
-   st.write("Sentiment analysis is the process of determining the emotional tone of a \
+    st.subheader('Sentiment Analysis')
+    st.write("Sentiment analysis is the process of determining the emotional tone of a \
     piece of text. TextBlob provides two properties for sentiment analysis: polarity and \
     subjectivity. \n\nPolarity refers to the degree to which the text expresses a positive \
     or negative sentiment. Polarity is represented as a float value between -1.0 and 1.0, \
