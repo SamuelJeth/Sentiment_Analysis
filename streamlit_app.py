@@ -46,8 +46,8 @@ def app():
     subjective viewpoint.")
     
     st.subheader('Survey Topic')
-    st.write('We conducted a survey among CS students and ask if they agree or disagree that \
-    AI will soon make CS professionals obsolete and briefly explain their answer.  \
+    st.write('I conducted a survey among university students and ask if they agree or disagree on \
+    on the uniform policy imposed and regulated by the university.  \
     The Disagree responses are labeled 0 and the Agree are labeled as 1.')
     
     with st.echo(code_location='below'):
