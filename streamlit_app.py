@@ -34,21 +34,19 @@ def app():
     st.subheader("(c) 2023 Samuel Jeth A. Datiles BSCS-3A")
 
     st.subheader('Sentiment Analysis')
-    st.write("Sentiment analysis is the process of determining the emotional tone of a \
-    piece of text. TextBlob provides two properties for sentiment analysis: polarity and \
-    subjectivity. \n\nPolarity refers to the degree to which the text expresses a positive \
-    or negative sentiment. Polarity is represented as a float value between -1.0 and 1.0, \
-    where -1.0 represents a completely negative sentiment, 0.0 represents a neutral \
-    sentiment, and 1.0 represents a completely positive sentiment./n/nSubjectivity, on the \
-    other hand, refers to the degree to which the text expresses a subjective or objective \
-    viewpoint. \n\nSubjectivity is also represented as a float value between 0.0 and 1.0, where \
-    0.0 represents a completely objective viewpoint and 1.0 represents a completely \
-    subjective viewpoint.")
+    st.write("Sentiment analysis involves identifying the emotional tone conveyed by a piece of text. TextBlob has two\
+    properties that aid in sentiment analysis: polarity and subjectivity. Polarity measures the degree of\
+    positive or negative sentiment expressed in the text, with a value range of -1.0 to 1.0. A score of -1.0\ 
+    indicates a completely negative sentiment, 0.0 represents a neutral sentiment, and 1.0 represents a \
+    completely positive sentiment. In contrast, subjectivity refers to the degree of subjective or objective \
+    viewpoint expressed in the text, with a score range of 0.0 to 1.0. A score of 0.0 denotes a completely \
+    objective viewpoint, while 1.0 denotes a completely subjective viewpoint.")
     
     st.subheader('Survey Topic')
-    st.write('We conducted a survey among students in the university and ask if they agree or disagree on \
-    the uniform policy that was imposed by the university since the beginning..  \
-    The Disagree responses are labeled 0 and the Agree are labeled as 1.')
+    st.write('As part of our survey among university students, we asked for their agreement or \
+    disagreement on the uniform policy implemented by the university from the outset. \
+    Responses indicating disagreement were labeled as 0, while those indicating agreement \
+    were labeled as 1.')
     
     with st.echo(code_location='below'):
         
