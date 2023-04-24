@@ -30,9 +30,10 @@ def app():
     stopwords_list.remove('not')
     tokenizer = ToktokTokenizer()
 
-    st.title("Sentiment Analysis on AI Making CS Professionals Obsolete")      
-    st.subheader("(c) 2023 Louie F. Cervantes, M.Eng.")
-
+    st.title("Sentiment Analysis on the Uniform Policy")      
+    st.subheader("(c) 2023 Samuel Jeth A. Datiles BSCS-3A")
+    
+    
     st.subheader('Sentiment Analysis')
     st.write("Sentiment analysis is the process of determining the emotional tone of a \
     piece of text. TextBlob provides two properties for sentiment analysis: polarity and \
@@ -112,7 +113,7 @@ def app():
             return text
         
         if st.button('Load Dataset'):  
-            df = pd.read_csv('sentimentcs.csv')
+            df = pd.read_csv('Uniform Policy.csv')
 
             #remember this very useful function to randomly rearrange the dataset
             train = shuffle(df)
